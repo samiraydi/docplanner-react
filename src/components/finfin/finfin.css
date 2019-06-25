@@ -1,0 +1,65 @@
+.button {
+    display: flex;
+}
+
+button {
+    background: #1662C6;
+    border-radius: 10px;
+    height: 32px;
+    width: 110px;
+    margin: 1%;
+}
+
+#fin {
+    transition: box-shadow .3s;
+    width: 312px;
+    height: 351px;
+    margin: 50px;
+    border-radius: 10px;
+    background: #fff;
+    float: left;
+}
+
+#fin:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    cursor: pointer;
+}
+
+.finfin {
+    display: flex;
+}
+
+.button1>button {
+    float: right;
+    color: white
+}
+
+.button2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #3D83DF
+}
+
+p {
+    color: #8f8f8f
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.img123 {
+    border-radius: 10px 10px 0 0
+}

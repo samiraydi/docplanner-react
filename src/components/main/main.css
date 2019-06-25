@@ -1,0 +1,50 @@
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.para {
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around
+}
+
+.patients,
+.doctors {
+    width: 480px;
+    background: #00CCB1;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+    height: 300px;
+}
+
+#logo1 {
+    width: 325px
+}
+
+.select-and-img {
+    display: flex;
+    justify-content: space-between
+}
+
+.image-div {
+    position: absolute;
+    right: -0px;
+    overflow: hidden;
+    width: 250px
+}
+.doc-color {
+    background: #3D83DF;
+    margin: 50px 0
+}
+
+.patients {
+    margin: 50px 0
+}

@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style-type: none
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(134, 133, 133)
+}
+
+.menu-item {
+    margin: 0 13px
+}
+
+.menu-item:hover {
+    color: #00BAC5;
+    cursor: pointer;
+}
+
+.active {
+    color: #00BAC5;
+}
+
+.drop {
+    position: relative;
+}
+
+.drop-menu {
+    position: absolute;
+    width: 200px;
+    left: -10px;
+    padding: 10px;
+    background: white;
+    display: none;
+}
+
+.drop-menu>li {
+    margin: 2px 0;
+    padding: 10px 0;
+    color: rgb(134, 133, 133)
+}
+
+.drop:hover .drop-menu {
+    box-shadow: 7px 4px 45px -27px rgba(100, 98, 98, 0.75);
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-item:hover {
+    background: rgb(0, 191, 166, 0.103);
+    color: #00BAC5;
+    cursor: pointer;
+}
